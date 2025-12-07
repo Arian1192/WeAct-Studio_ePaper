@@ -12,7 +12,7 @@ namespace weact_epaper {
 // - Reference: https://github.com/WeActStudio/WeActStudio.EpaperModule
 // - Datasheet: ZJY120M10 / SSD1681
 
-static const char *const TAG = "weact_1.54";
+static const char *const TAG = "weact_1.54in";
 
 static const uint16_t HEIGHT = 200;
 static const uint16_t WIDTH = 200;
