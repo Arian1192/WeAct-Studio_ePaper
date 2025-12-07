@@ -6,6 +6,7 @@ ESPHome external component for WeAct Studio ePaper screens, including support fo
 
 This component covers:
 
+- **WeAct Studio 1.54" BW screen** (200x200) - Black & White monochrome
 - **WeAct Studio 2.9" BWR screen** (296x128) - Based on ESPHome pull request #6226 by jbergler
 - **WeAct Studio 4.2" BW screen** (400x300) - Based on ESPHome pull request #6209 by MrMDavidson
 - **WeAct Studio 4.2" BWR screen** (400x300) - Custom implementation based on jbergler's work
@@ -62,6 +63,7 @@ display:
 ### Supported Models
 
 #### WeAct Studio Models
+- `1.54in3c` - 1.54" Black/White (200x200)
 - `2.90in3c` - 2.9" Black/White/Red (296x128)
 - `4.20in3c` - 4.2" Black/White/Red (400x300)
 - `4.20in` - 4.2" Black/White (400x300)

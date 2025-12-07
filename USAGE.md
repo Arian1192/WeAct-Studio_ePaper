@@ -93,6 +93,14 @@ display:
 
 ### WeAct Studio Models
 
+#### 1.54" Black/White (200x200)
+```yaml
+display:
+  - platform: weact_epaper
+    model: 1.54in3c
+    # ... pins ...
+```
+
 #### 2.9" Black/White/Red (296x128)
 ```yaml
 display:

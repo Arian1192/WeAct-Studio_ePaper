@@ -130,6 +130,9 @@ WeActEPaper2P9In3C = weact_epaper_ns.class_(
 WeActEPaper4P2In3C = weact_epaper_ns.class_(
     "WeActEPaper4P2In3C", WaveshareEPaperBWR
 )
+WeActEPaper1P54In = weact_epaper_ns.class_(
+    "WeActEPaper1P54In", WaveshareEPaper
+)
 WaveshareEPaper13P3InK = weact_epaper_ns.class_(
     "WaveshareEPaper13P3InK", WaveshareEPaper
 )
@@ -142,6 +145,7 @@ MODELS = {
     "1.54in": ("a", WaveshareEPaperTypeAModel.WAVESHARE_EPAPER_1_54_IN),
     "1.54inv2": ("a", WaveshareEPaperTypeAModel.WAVESHARE_EPAPER_1_54_IN_V2),
     "1.54inv2-b": ("b", WaveshareEpaper1P54INBV2),
+    "1.54in3c": ("b", WeActEPaper1P54In),
     "2.13in": ("a", WaveshareEPaperTypeAModel.WAVESHARE_EPAPER_2_13_IN),
     "2.13inv2": ("a", WaveshareEPaperTypeAModel.WAVESHARE_EPAPER_2_13_IN_V2),
     "2.13in-ttgo": ("a", WaveshareEPaperTypeAModel.TTGO_EPAPER_2_13_IN),
