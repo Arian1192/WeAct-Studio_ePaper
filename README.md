@@ -20,7 +20,7 @@ Add the following to your ESPHome YAML configuration:
 
 ```yaml
 external_components:
-  - source: github://Ottes42/WeAct-Studio_ePaper
+  - source: github://Arian1192/WeAct-Studio_ePaper
     components: [ weact_epaper ]
 ```
 
