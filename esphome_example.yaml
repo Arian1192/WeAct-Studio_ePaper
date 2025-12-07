@@ -26,7 +26,7 @@ display:
     busy_pin: GPIO4
     reset_pin: GPIO16
     model: 2.90in3c         # WeAct 2.9" BWR   296x128
-    # model: 1.54in3c       # WeAct 1.54" BW   200x200
+    # model: 1.54in-weact   # WeAct 1.54" BW   200x200
     # model: 4.20in3c       # WeAct 4.2" BWR   400x300
     # model: 4.20in         # Waveshare 4.2" BW    400x300
     update_interval: 60s

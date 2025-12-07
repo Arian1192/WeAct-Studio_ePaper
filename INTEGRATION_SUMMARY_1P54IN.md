@@ -1,11 +1,16 @@
 # Integración WeAct 1.54 inch - Resumen de Cambios Completados
 
 **Fecha:** 7 de diciembre de 2025  
-**Estado:** ✅ Completado
+**Estado:** ✅ Completado y Estructurado
 
 ## Resumen Ejecutivo
 
-La integración del display **WeAct Studio 1.54" BW (200x200)** ha sido completada exitosamente. El componente es totalmente funcional y listo para ser usado en configuraciones ESPHome.
+La integración del display **WeAct Studio 1.54" BW (200x200)** ha sido completada y estructurada correctamente. El componente es totalmente funcional y listo para ser usado en configuraciones ESPHome.
+
+### Modelo Registrado: `1.54in-weact`
+- Nombre claro que indica WeAct Studio
+- Explicítamente B/W (sin "3c" que confunde con modelos tri-color)
+- Diferenciado del Waveshare genérico `1.54in`
 
 ## Cambios Implementados
 
@@ -69,7 +74,7 @@ class WeActEPaper1P54In : public WaveshareEPaper {
 
 - **Línea 148:** Registro en diccionario MODELS
   ```python
-  "1.54in3c": ("b", WeActEPaper1P54In),
+  "1.54in-weact": ("b", WeActEPaper1P54In),
   ```
 
 ### 4. ✅ Documentación: `README.md` (MODIFICADO)
@@ -85,19 +90,19 @@ class WeActEPaper1P54In : public WaveshareEPaper {
   ```
 
 ### 5. ✅ Guía de Uso: `USAGE.md` (MODIFICADO)
-**Adición:** Sección de configuración para 1.54in
+**Adición:** Sección de configuración para 1.54in-weact
 ```yaml
 #### 1.54" Black/White (200x200)
 display:
   - platform: weact_epaper
-    model: 1.54in3c
+    model: 1.54in-weact
     # ... pins ...
 ```
 
 ### 6. ✅ Ejemplo de Configuración: `esphome_example.yaml` (MODIFICADO)
 **Adición:** Línea comentada de ejemplo
 ```yaml
-# model: 1.54in3c       # WeAct 1.54" BW   200x200
+# model: 1.54in-weact   # WeAct 1.54" BW   200x200
 ```
 
 ## Resumen de Cambios por Archivo

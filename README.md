@@ -63,7 +63,7 @@ display:
 ### Supported Models
 
 #### WeAct Studio Models
-- `1.54in` - 1.54" Black/White (200x200)
+- `1.54in-weact` - 1.54" Black/White (200x200)
 - `2.90in3c` - 2.9" Black/White/Red (296x128)
 - `4.20in3c` - 4.2" Black/White/Red (400x300)
 - `4.20in` - 4.2" Black/White (400x300)

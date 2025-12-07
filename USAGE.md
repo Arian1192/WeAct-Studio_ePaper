@@ -97,7 +97,7 @@ display:
 ```yaml
 display:
   - platform: weact_epaper
-    model: 1.54in3c
+    model: 1.54in-weact
     # ... pins ...
 ```
 
