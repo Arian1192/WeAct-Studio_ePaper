@@ -133,6 +133,10 @@ void HOT WeActEPaper1P54In::draw_absolute_pixel_internal(int x, int y, Color col
   }
 }
 
+void WeActEPaper1P54In::set_full_update_every(uint32_t full_update_every) {
+  this->full_update_every_ = full_update_every;
+}
+
 void WeActEPaper1P54In::full_update_() {
   ESP_LOGI(TAG, "Performing full e-paper update.");
   this->write_buffer_(0, this->get_height_internal());

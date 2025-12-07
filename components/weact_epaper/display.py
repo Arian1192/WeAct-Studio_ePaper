@@ -145,7 +145,7 @@ MODELS = {
     "1.54in": ("a", WaveshareEPaperTypeAModel.WAVESHARE_EPAPER_1_54_IN),
     "1.54inv2": ("a", WaveshareEPaperTypeAModel.WAVESHARE_EPAPER_1_54_IN_V2),
     "1.54inv2-b": ("b", WaveshareEpaper1P54INBV2),
-    "1.54in-weact": ("b", WeActEPaper1P54In),
+    "1.54in-weact": ("c", WeActEPaper1P54In),
     "2.13in": ("a", WaveshareEPaperTypeAModel.WAVESHARE_EPAPER_2_13_IN),
     "2.13inv2": ("a", WaveshareEPaperTypeAModel.WAVESHARE_EPAPER_2_13_IN_V2),
     "2.13in-ttgo": ("a", WaveshareEPaperTypeAModel.TTGO_EPAPER_2_13_IN),

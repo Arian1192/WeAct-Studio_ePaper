@@ -781,6 +781,8 @@ class WeActEPaper1P54In : public WaveshareEPaper {
   void setup() override;
   void initialize() override;
 
+  void set_full_update_every(uint32_t full_update_every);
+
  protected:
   int get_width_internal() override;
   int get_height_internal() override;
@@ -793,7 +795,7 @@ class WeActEPaper1P54In : public WaveshareEPaper {
   void send_reset_();
   void full_update_();
 
-  uint32_t full_update_every_{0};
+  uint32_t full_update_every_{30};
   uint32_t at_update_{0};
   bool is_busy_{false};
 };
